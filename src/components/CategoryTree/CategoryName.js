@@ -3,11 +3,11 @@ import { NavLink, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { updateCategoryName } from 'actions/categories';
+import { updateCategoryName } from '../../actions/categories';
 
-import InputGroup from 'components/common/InputGroup';
-import colors from 'constants/colors';
-import FontIcon from 'components/common/FontIcon';
+import InputGroup from '../common/InputGroup';
+import colors from '../../constants/colors';
+import FontIcon from '../common/FontIcon';
 
 class CategoryName extends Component {
   constructor(props) {

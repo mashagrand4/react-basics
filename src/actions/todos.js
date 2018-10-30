@@ -4,7 +4,7 @@ import {
   TOGGLE_TODO_STATUS,
   UPDATE_TODO,
   MOVE_TODO_INTO_CATEGORY,
-} from 'constants/todos';
+} from '../constants/todos';
 
 export function updateTodoListFilter(filterName, value) {
   return {

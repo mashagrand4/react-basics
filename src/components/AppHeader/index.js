@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import TodoListFilters from 'components/TodoListFilters';
+import TodoListFilters from '../TodoListFilters';
 
 function AppHeader() {
   return (

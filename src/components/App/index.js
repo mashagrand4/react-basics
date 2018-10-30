@@ -4,17 +4,17 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import { Provider } from 'react-redux';
 
-import store from 'store/configureStore';
+import store from '../../store/configureStore';
 
-import CategoryTree from 'components/CategoryTree';
+import CategoryTree from '../CategoryTree';
 
-import AddTodo from 'components/AddTodo';
-import AddRootCategory from 'components/AddRootCategory';
-import AppHeader from 'components/AppHeader';
-import TodoList from 'components/TodoList';
-import TodoDetails from 'components/TodoDetails';
-import SelectedTodoName from 'components/SelectedTodoName';
-import CompleteProgress from 'components/CompleteProgress';
+import AddTodo from '../AddTodo';
+import AddRootCategory from '../AddRootCategory';
+import AppHeader from '../AppHeader';
+import TodoList from '../TodoList';
+import TodoDetails from '../TodoDetails';
+import SelectedTodoName from '../SelectedTodoName';
+import CompleteProgress from '../CompleteProgress';
 
 function App() {
   return (

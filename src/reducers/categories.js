@@ -4,7 +4,7 @@ import {
   ADD_NEW_CATEGORY,
   DELETE_CATEGORY,
   UPDATE_CATEGORY_NAME,
-} from 'constants/categories';
+} from '../constants/categories';
 
 const initialState = [];
 

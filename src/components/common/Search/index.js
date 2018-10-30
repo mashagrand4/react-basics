@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import TextField from 'components/common/TextField';
-import FontIcon from 'components/common/FontIcon';
+import TextField from '../TextField';
+import FontIcon from '../FontIcon';
 
 function Search({ value, onChange }) {
   return (

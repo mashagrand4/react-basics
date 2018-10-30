@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
-import colors from 'constants/colors';
+import colors from '../../constants/colors';
 
-import { moveTodoIntoCategory } from 'actions/todos';
+import { moveTodoIntoCategory } from '../../actions/todos';
 
-import FontIcon from 'components/common/FontIcon';
+import FontIcon from '../common/FontIcon';
 
 const MoveTodo = styled(FontIcon).attrs({
   icon: 'arrow-left',

@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import colors from 'constants/colors';
-import { deleteCategory } from 'actions/categories';
+import colors from '../../constants/colors';
+import { deleteCategory } from '../../actions/categories';
 
-import FontIcon from 'components/common/FontIcon';
-import Dialog from 'components/common/Dialog';
-import Button from 'components/common/Button';
+import FontIcon from '../common/FontIcon';
+import Dialog from '../common/Dialog';
+import Button from '../common/Button';
 
 class DeleteCategory extends Component {
   state = {

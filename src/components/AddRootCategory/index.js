@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { addNewCategory } from 'actions/categories';
+import { addNewCategory } from '../../actions/categories';
 
-import InputGroup from 'components/common/InputGroup';
+import InputGroup from '../common/InputGroup';
 
 class AddRootCategory extends Component {
   state = {

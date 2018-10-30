@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { toggleCategoryInTree } from 'actions/categoryTree';
-import colors from 'constants/colors';
+import { toggleCategoryInTree } from '../../actions/categoryTree';
+import colors from '../../constants/colors';
 
-import FontIcon from 'components/common/FontIcon';
+import FontIcon from '../common/FontIcon';
 
 function CategoryToggle({ isChecked, onClick }) {
   return (

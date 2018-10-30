@@ -1,4 +1,4 @@
-import { UPDATE_TODO_LIST_FILTER } from 'constants/todos';
+import { UPDATE_TODO_LIST_FILTER } from '../../constants/todos';
 
 function filter(
   state = {

@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { updateTodo } from 'actions/todos';
+import { updateTodo } from '../../actions/todos';
 
-import TextLink from 'components/common/TextLink';
-import Label from 'components/common/Label';
-import Button from 'components/common/Button';
-import TextField from 'components/common/TextField';
-import TextArea from 'components/common/TextArea';
-import CheckBox from 'components/common/CheckBox';
+import TextLink from '../common/TextLink';
+import Label from '../common/Label';
+import Button from '../common/Button';
+import TextField from '../common/TextField';
+import TextArea from '../common/TextArea';
+import CheckBox from '../common/CheckBox';
 
 class TodoDetails extends Component {
   constructor(props) {

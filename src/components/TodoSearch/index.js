@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 
-import { updateTodoListFilter } from 'actions/todos';
+import { updateTodoListFilter } from '../../actions/todos';
 
-import Search from 'components/common/Search';
+import Search from '../common/Search';
 
 function mapStateToProps(state) {
   return {

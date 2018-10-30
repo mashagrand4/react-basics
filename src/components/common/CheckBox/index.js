@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import FontIcon from 'components/common/FontIcon';
+import FontIcon from '../FontIcon';
 
 function CheckBox({ isChecked, onChange, id, ...props }) {
   return (

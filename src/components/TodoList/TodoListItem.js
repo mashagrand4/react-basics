@@ -3,11 +3,11 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { toggleTodoStatus } from 'actions/todos';
+import { toggleTodoStatus } from '../../actions/todos';
 
-import FontIcon from 'components/common/FontIcon';
-import CheckBox from 'components/common/CheckBox';
-import TextLink from 'components/common/TextLink';
+import FontIcon from '../common/FontIcon';
+import CheckBox from '../common/CheckBox';
+import TextLink from '../common/TextLink';
 
 class TodoListItem extends Component {
   toggleTodoStatus = () => {

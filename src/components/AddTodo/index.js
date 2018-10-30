@@ -3,9 +3,9 @@ import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { addCategoryTodo } from 'actions/todos';
+import { addCategoryTodo } from '../../actions/todos';
 
-import InputGroup from 'components/common/InputGroup';
+import InputGroup from '../common/InputGroup';
 
 class AddTodo extends Component {
   state = {

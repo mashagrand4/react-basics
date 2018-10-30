@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import colors from 'constants/colors';
-import TextField from 'components/common/TextField';
+import colors from '../../../constants/colors';
+import TextField from '../TextField';
 
 const View = styled.div`
   display: flex;

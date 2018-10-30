@@ -4,9 +4,9 @@ import {
   TOGGLE_TODO_STATUS,
   UPDATE_TODO,
   MOVE_TODO_INTO_CATEGORY,
-} from 'constants/todos';
+} from '../../constants/todos';
 
-import { DELETE_CATEGORY } from 'constants/categories';
+import { DELETE_CATEGORY } from '../../constants/categories';
 
 const initialState = [];
 

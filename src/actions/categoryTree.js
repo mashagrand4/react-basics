@@ -1,4 +1,4 @@
-import { TOGGLE_CATEGORY_IN_TREE } from 'constants/categoryTree';
+import { TOGGLE_CATEGORY_IN_TREE } from '../constants/categoryTree';
 
 export function toggleCategoryInTree(categoryId) {
   return {

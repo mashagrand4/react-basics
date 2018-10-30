@@ -2,11 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { updateTodoListFilter } from 'actions/todos';
+import { updateTodoListFilter } from '../../actions/todos';
 
-import Label from 'components/common/Label';
-import CheckBox from 'components/common/CheckBox';
-import TodoSearch from 'components/TodoSearch';
+import Label from '../common/Label';
+import CheckBox from '../common/CheckBox';
+import TodoSearch from '../TodoSearch';
 
 function TodoListFilters({ onVisibilityChange, showCompleted, match }) {
   return (

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from 'constants/colors';
+import colors from '../../../constants/colors';
 
 export default styled.button`
   padding: 10px 20px;

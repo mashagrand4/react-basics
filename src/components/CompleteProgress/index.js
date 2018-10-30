@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import colors from 'constants/colors';
+import colors from '../../constants/colors';
 
-import { getTodoProgress } from 'reducers/todos';
+import { getTodoProgress } from '../../reducers/todos';
 
 function CompletedProgress({ progress }) {
   return <View progress={progress} />;

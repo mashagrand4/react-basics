@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import colors from 'constants/colors';
+import colors from '../../constants/colors';
 import styled from 'styled-components';
 
-import { addNewCategory } from 'actions/categories';
+import { addNewCategory } from '../../actions/categories';
 
-import FontIcon from 'components/common/FontIcon';
-import TextField from 'components/common/TextField';
-import Button from 'components/common/Button';
-import Dialog from 'components/common/Dialog';
+import FontIcon from '../common/FontIcon';
+import TextField from '../common/TextField';
+import Button from '../common/Button';
+import Dialog from '../common/Dialog';
 
 class AddSubCategory extends Component {
   state = {
